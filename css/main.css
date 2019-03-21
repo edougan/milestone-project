@@ -1,0 +1,170 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contact {
+    height: 300px;
+}
+
+#about {
+  height: 650px;
+}
+
+#work {
+  height: 1450px;
+}
+
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+
+}
+
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url('../img/white-tex.jpg');
+    background-size: cover;
+    margin: auto;
+}
+header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 65px 0 65px 25px;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding-left: 80px;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Vidaloka', serif;
+    font-size: 55px;
+    line-height: 80px;
+    color: #202020;
+    padding: 100px 0 20px 120px;
+  }
+
+/***** WORK *****/
+.thumbnails {
+  height: 430px;
+  padding-top: 20px;
+
+}
+.descriptions {
+  height: 430px;
+  padding-top: 20px;
+
+}
+#work {
+  background: #deeaee;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+#work h2 {
+  font-family: 'Vidaloka', serif;
+  color: #202020;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+#work h3 {
+  font-family: 'Vidaloka', serif;
+  color: #202020;
+  font-size: 20px;
+  text-align: center;
+
+}
+#work p  {
+  font-size: 20px;
+  color: #202020;
+  padding-top: 20px;
+  line-height: 40px;
+}
+
+.thumbnails img {
+  height: auto;
+  width: 500px;
+}
+
+
+/***** ABOUT *****/
+#about{
+  background: #deeaee;
+  padding-top: 10px;
+}
+
+#about h2 {
+  font-family: 'Vidaloka', serif;
+  color: #202020;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+  #about img {
+      margin-left: 50px;
+      border: 12px solid #ffffff;
+      width: 450px;
+      height: auto;
+
+    }
+#about p
+{ padding-left: 10px;
+  padding-top: 25px;
+  padding-right:20px;
+  text-align: left;
+  font-size: 25px;
+  line-height: 40px;
+
+}
+
+/***** CONTACT*****/
+
+#contact {
+  background: white;
+}
+
+#contact h2, h3 {
+  font-family: 'Vidaloka', serif;
+  color: #282828;
+  text-align: center;
+
+}
+#contact .full-width {
+    padding: 50px 0;
+}
+
+#contact p {
+  text-align: center;
+}
+#contact img {
+  padding-left: 175px;
+}
